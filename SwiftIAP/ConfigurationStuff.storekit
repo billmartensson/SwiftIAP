@@ -1,0 +1,74 @@
+{
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "553B235C",
+      "localizations" : [
+        {
+          "description" : "Shiny gold is good",
+          "displayName" : "Some gold",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "somegold",
+      "referenceName" : "Gold",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : true,
+      "internalID" : "5D6E9288",
+      "localizations" : [
+        {
+          "description" : "This mines lots of gold",
+          "displayName" : "Goldmine",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "goldmine",
+      "referenceName" : "Goldmine",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "3C8109F5",
+      "localizations" : [
+
+      ],
+      "name" : "GettingGold",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "ED4F1089",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Lets get gold every month",
+              "displayName" : "Gold per month",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "goldpermonth",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Gold Month",
+          "subscriptionGroupID" : "3C8109F5",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 0
+  }
+}
